@@ -1,0 +1,523 @@
+body{
+  background-color: #020202;
+  border: 2px solid white;
+  background-image: url(http://dslv9ilpbe7p1.cloudfront.net/HkYeMZAyYUnRSJ4g65J13g_store_banner_image.jpeg);
+
+}
+
+.header{
+  text-align: center;
+  font-family: Ransom;
+  /* color: #f91616; */
+  color: white;
+  /* font-family: Ransom, Helvetica; */
+  font-family: EarwigFactory-Regular;
+  font-size: 40px;
+
+
+}
+
+.header h6{
+  color: white;
+  /* font-family: Arsenal; */
+  font-family: p5hatty;
+  /* padding-bottom: 30px; */
+
+
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+
+@font-face {
+  font-family: 'Ransom';
+    src: url('fonts/Ransom.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Ransom.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/Ransom.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/Ransom.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/Ransom.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/Ransom.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'EarwigFactory-Regular';
+    src: url('fonts/EarwigFactory-Regulareot'); /* IE9 Compat Modes */
+    src: url('fonts/EarwigFactory-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/EarwigFactory-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/EarwigFactory-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/EarwigFactory-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/EarwigFactory-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content1{
+
+}
+
+.body1{
+  background-image: url(https://atlus.com/persona5/img/phantom-life/section_7_bg.jpg);
+border-top: 3px solid white;
+}
+
+.card1 {
+     width: 320px;
+     height: 500px;
+     background: url("https://cdnen.samurai-gamers.com/wp-content/uploads/2017/02/24121559/sg-p5r-fool-arcana.png") no-repeat;
+     display: inline-block;
+     margin-left: 60px;
+
+ }
+ .card1:hover {
+     background: url("https://static.wikia.nocookie.net/megamitensei/images/6/63/Persona_5_Hero.png/revision/latest?cb=20160505182242") no-repeat;
+    opacity: 35%;
+
+    color: white;
+
+ }
+
+
+
+ .card2 {
+      width: 320px;
+      height: 500px;
+      background: url("https://cdnen.samurai-gamers.com/wp-content/uploads/2017/02/24121520/sg-p5r-chariot-arcana.png") no-repeat;
+      display: inline-block;
+       margin-right: 15px;
+  }
+  .card2:hover {
+      background: url("https://static.wikia.nocookie.net/megamitensei/images/b/bc/Ryuji_Sakamoto.png/revision/latest?cb=20160505182138") no-repeat;
+     opacity: 35%;
+
+  }
+
+  .card3 {
+       width: 320px;
+       height: 500px;
+       background: url("https://cdnen.samurai-gamers.com/wp-content/uploads/2017/02/24121525/sg-p5r-lovers-arcana.png") no-repeat;
+       display: inline-block;
+     margin-right: 45px;
+   }
+   .card3:hover {
+       background: url("https://static.wikia.nocookie.net/megamitensei/images/b/be/An_takamaki.png/revision/latest?cb=20170426203909") no-repeat;
+      opacity: 35%;
+
+   }
+
+ .titles1{
+   display: flex;
+   /* font-family: EarwigFactory-Regular; */
+   font-family: p5hatty;
+   color: white;
+   justify-content: space-between;
+   justify-content: space-around;
+
+ }
+
+ .cards2{
+   display: flex;
+   justify-content: space-around;
+   justify-content: space-between;
+   margin-left: 40px;
+ }
+
+ .card4 {
+      width: 320px;
+      height: 500px;
+      background: url("https://cdnen.samurai-gamers.com/wp-content/uploads/2017/02/24121555/sg-p5r-magician-arcana.png") no-repeat;
+      display: inline-block;
+      margin-left: 60px;
+  }
+  .card4:hover {
+      background: url("https://static.wikia.nocookie.net/p__/images/a/a6/Morgana_%28Original%29.png/revision/latest?cb=20180115035815&path-prefix=protagonist") no-repeat;
+     opacity: 35%;
+
+  }
+
+  .card5 {
+       width: 320px;
+       height: 500px;
+       background: url("https://cdnen.samurai-gamers.com/wp-content/uploads/2017/02/24121531/sg-p5r-emperor-arcana.png") no-repeat;
+       display: inline-block;
+       margin-right: 15px;
+   }
+   .card5:hover {
+       background: url("https://static.wikia.nocookie.net/megamitensei/images/5/5c/Yusuke-Kitagawa.png/revision/latest?cb=20160505181913") no-repeat;
+      opacity: 35%;
+
+   }
+
+
+   .card6 {
+        width: 320px;
+        height: 500px;
+        background: url("https://cdnen.samurai-gamers.com/wp-content/uploads/2017/02/24121545/sg-p5r-priestess-arcana.png") no-repeat;
+        display: inline-block;
+        margin-right: 45px;
+    }
+    .card6:hover {
+        background: url("https://i.imgur.com/fN7nwyv.png") no-repeat;
+       opacity: 35%;
+
+    }
+
+    .cards3{
+      display: flex;
+      justify-content: space-around;
+      justify-content: space-between;
+      margin-left: 40px;
+    }
+
+    .card7 {
+         width: 320px;
+         height: 500px;
+         background: url("https://cdnen.samurai-gamers.com/wp-content/uploads/2017/02/24121501/sg-p5r-hermit-arcana.png") no-repeat;
+         display: inline-block;
+         margin-left: 60px;
+     }
+     .card7:hover {
+         background: url("https://static.wikia.nocookie.net/megamitensei/images/9/95/P5_Futaba_Sakura.png/revision/latest?cb=20160517013502") no-repeat;
+        opacity: 35%;
+
+     }
+
+     .card8 {
+          width: 320px;
+          height: 500px;
+          background: url("https://cdnen.samurai-gamers.com/wp-content/uploads/2017/02/24121541/sg-p5r-empress-arcana.png") no-repeat;
+          display: inline-block;
+          margin-right: 15px;
+      }
+      .card8:hover {
+          background: url("https://i.imgur.com/1EzQkfn.png") no-repeat;
+         opacity: 35%;
+
+      }
+
+
+      .card9 {
+           width: 320px;
+           height: 500px;
+           background: url("https://cdnen.samurai-gamers.com/wp-content/uploads/2017/02/24121515/sg-p5r-justice-arcana.png") no-repeat;
+           display: inline-block;
+           margin-right: 45px;
+       }
+       .card9:hover {
+           background: url("https://i.imgur.com/XYfwABv.png") no-repeat;
+          opacity: 35%;
+
+       }
+
+       .text9 {
+         color: red;
+       }
+
+
+       .cards3{
+         padding-bottom: 20px;
+       }
+
+
+.logorow1{
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: space-between;
+padding-left: 195px;
+font-family: p5hatty;
+
+}
+       .ptlogo1{
+         width:300px;
+         height:80px;
+         background: url("https://i.imgur.com/1JNqM5m.png") no-repeat;
+         /* display: inline-block; */
+         /* display: flex; */
+        /* padding-left: 40px; */
+       }
+
+       .ptlogo1 .tooltiptext {
+         visibility: hidden;
+         width: 320px;
+         background-color: black;
+         color: red;
+         text-align: left;
+         border-radius: 6px;
+         padding: 10px 0;
+         font-size: 25px;
+
+         /* Position the tooltip */
+         position: absolute;
+         z-index: 1;
+       }
+
+       .ptlogo1:hover .tooltiptext {
+  visibility: visible;
+}
+
+       /* .ptlogo1:hover {
+
+       } */
+
+       .ptlogo2{
+         width:500px;
+         height:80px;
+         background: url("https://i.imgur.com/1JNqM5m.png") no-repeat;
+         /* display: inline-block; */
+         display: flex;
+         margin-left: 310px;
+
+       }
+
+       .ptlogo2 .tooltiptext {
+         visibility: hidden;
+         width: 320px;
+         background-color: black;
+         color: red;
+         text-align: left;
+         border-radius: 6px;
+         padding: 10px 0;
+         font-size: 25px;
+
+         /* Position the tooltip */
+         position: absolute;
+         z-index: 1;
+       }
+
+       .ptlogo2:hover .tooltiptext {
+  visibility: visible;
+}
+
+       .ptlogo3{
+         width:500px;
+         height:80px;
+         background: url("https://i.imgur.com/1JNqM5m.png") no-repeat;
+         /* display: inline-block; */
+         display: flex;
+         /* padding-left: 115px; */
+         /* margin-left: 290px; */
+      margin-left: 220px;
+
+       }
+
+
+       .ptlogo3 .tooltiptext {
+         visibility: hidden;
+         width: 320px;
+         background-color: black;
+         color: red;
+         text-align: left;
+         border-radius: 6px;
+         padding: 10px 0;
+         font-size: 25px;
+
+         /* Position the tooltip */
+         position: absolute;
+         z-index: 1;
+       }
+
+       .ptlogo3:hover .tooltiptext {
+       visibility: visible;
+       }
+
+       .logorow2{
+         display: flex;
+         /* justify-content: space-around; */
+         justify-content: space-between;
+       padding-left: 195px;
+       font-family: p5hatty;
+
+       }
+              .ptlogo4{
+                width:300px;
+                height:80px;
+                background: url("https://i.imgur.com/1JNqM5m.png") no-repeat;
+                /* display: inline-block; */
+                display: flex;
+               /* padding-left: 40px; */
+              }
+
+
+
+                     .ptlogo4 .tooltiptext {
+                       visibility: hidden;
+                       width: 320px;
+                       background-color: black;
+                       color: red;
+                       text-align: left;
+                       border-radius: 6px;
+                       padding: 10px 0;
+                       font-size: 25px;
+
+                       /* Position the tooltip */
+                       position: absolute;
+                       z-index: 1;
+                     }
+
+                     .ptlogo4:hover .tooltiptext {
+                visibility: visible;
+              }
+
+              .ptlogo5{
+                width:500px;
+                height:80px;
+                background: url("https://i.imgur.com/1JNqM5m.png") no-repeat;
+                /* display: inline-block; */
+                display: flex;
+                margin-left: 310px;
+
+              }
+
+
+                     .ptlogo5 .tooltiptext {
+                       visibility: hidden;
+                       width: 320px;
+                       background-color: black;
+                       color: red;
+                       text-align: left;
+                       border-radius: 6px;
+                       padding: 10px 0;
+                       font-size: 25px;
+
+                       /* Position the tooltip */
+                       position: absolute;
+                       z-index: 1;
+                     }
+
+                     .ptlogo5:hover .tooltiptext {
+                visibility: visible;
+              }
+
+              .ptlogo6{
+                width:500px;
+                height:80px;
+                background: url("https://i.imgur.com/1JNqM5m.png") no-repeat;
+                /* display: inline-block; */
+                display: flex;
+                /* padding-left: 115px; */
+                /* margin-left: 290px; */
+             margin-left: 220px;
+
+              }
+
+
+                     .ptlogo6 .tooltiptext {
+                       visibility: hidden;
+                       width: 320px;
+                       background-color: black;
+                       color: red;
+                       text-align: left;
+                       border-radius: 6px;
+                       padding: 10px 0;
+                       font-size: 25px;
+
+                       /* Position the tooltip */
+                       position: absolute;
+                       z-index: 1;
+                     }
+
+                     .ptlogo6:hover .tooltiptext {
+                visibility: visible;
+              }
+
+              .logorow3{
+                display: flex;
+                /* justify-content: space-around; */
+                justify-content: space-between;
+              padding-left: 195px;
+              font-family: p5hatty;
+
+              }
+                     .ptlogo7{
+                       width:300px;
+                       height:80px;
+                       background: url("https://i.imgur.com/1JNqM5m.png") no-repeat;
+                       /* display: inline-block; */
+                       display: flex;
+                      /* padding-left: 40px; */
+                     }
+
+                     .ptlogo7 .tooltiptext {
+                       visibility: hidden;
+                       width: 320px;
+                       background-color: black;
+                       color: red;
+                       text-align: left;
+                       border-radius: 6px;
+                       padding: 10px 0;
+                       font-size: 25px;
+
+                       /* Position the tooltip */
+                       position: absolute;
+                       z-index: 1;
+                     }
+
+                     .ptlogo7:hover .tooltiptext {
+                     visibility: visible;
+                     }
+
+                     .ptlogo8{
+                       width:500px;
+                       height:80px;
+                       background: url("https://i.imgur.com/1JNqM5m.png") no-repeat;
+                       /* display: inline-block; */
+                       display: flex;
+                       margin-left: 310px;
+
+
+                     }
+
+                     .ptlogo8 .tooltiptext {
+                       visibility: hidden;
+                       width: 320px;
+                       background-color: black;
+                       color: red;
+                       text-align: left;
+                       border-radius: 6px;
+                       padding: 10px 0;
+                       font-size: 25px;
+
+                       /* Position the tooltip */
+                       position: absolute;
+                       z-index: 1;
+                     }
+
+                     .ptlogo8:hover .tooltiptext {
+                visibility: visible;
+              }
+
+                     .ptlogo9{
+                       width:500px;
+                       height:80px;
+                       background: url("https://i.imgur.com/1JNqM5m.png") no-repeat;
+                       /* display: inline-block; */
+                       display: flex;
+                       /* padding-left: 115px; */
+                       /* margin-left: 290px; */
+                    margin-left: 220px;
+
+                     }
+
+                     .ptlogo9 .tooltiptext {
+                       visibility: hidden;
+                       width: 320px;
+                       background-color: black;
+                       color: red;
+                       text-align: left;
+                       border-radius: 6px;
+                       padding: 10px 0;
+                       font-size: 25px;
+
+                       /* Position the tooltip */
+                       position: absolute;
+                       z-index: 1;
+                     }
+
+                     .ptlogo9:hover .tooltiptext {
+                visibility: visible;
+              }

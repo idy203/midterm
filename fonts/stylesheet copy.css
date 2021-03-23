@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Earwig Factory';
+    src: url('EarwigFactory-Regular.eot');
+    src: url('EarwigFactory-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EarwigFactory-Regular.woff2') format('woff2'),
+        url('EarwigFactory-Regular.woff') format('woff'),
+        url('EarwigFactory-Regular.ttf') format('truetype'),
+        url('EarwigFactory-Regular.svg#EarwigFactory-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
