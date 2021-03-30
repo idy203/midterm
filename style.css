@@ -17,13 +17,19 @@ body{
 
 }
 
-.header h6{
+.header h5{
   color: white;
   /* font-family: Arsenal; */
   font-family: p5hatty;
   /* padding-bottom: 30px; */
 
 
+}
+
+.header h6{
+  color: white;
+  font-family: p5hatty;
+  font-size: 30px;
 }
 
 .cards{
@@ -53,6 +59,18 @@ body{
         url('fonts/EarwigFactory-Regular.woff') format('woff'), /* Pretty Modern Browsers */
         url('fonts/EarwigFactory-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
         url('fonts/EarwigFactory-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'p5hatty';
+    src: url('fonts/p5hatty'); /* IE9 Compat Modes */
+    src: url('fonts/p5hatty.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/p5hatty.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/p5hatty.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/p5hatty.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/p5hatty.svg#svgFontName') format('svg'); /* Legacy iOS */
     font-weight: 400;
     font-style: normal;
 }
